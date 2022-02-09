@@ -8,7 +8,7 @@ namespace GenericsMax
 {
     public class MaximumOfThese
     {
-        public int Max(int first_number,int second_number,int third_number)
+        public double Max(double first_number, double second_number, double third_number)
         {
             if(first_number.CompareTo(second_number) > 0 && first_number.CompareTo(third_number)>0)
             {
