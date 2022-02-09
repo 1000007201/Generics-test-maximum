@@ -10,8 +10,8 @@ namespace GenericMaxTest
         public void GivenIntegerValue_WhenChech_ReturnMaximum()
         {
             MaximumOfThese max = new MaximumOfThese();
-            double data = max.Max(3.1,1.1,2.1);
-            Assert.AreEqual(3.1,data);
+            string data = max.Max("Apple","Peach","Banana");
+            Assert.AreEqual("Peach",data);
         }
     }
 }
