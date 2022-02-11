@@ -2,5 +2,5 @@
 using GenericsMax;
 
 
-MaximumOfThese max = new MaximumOfThese();
+MaximumOfThese<string> max = new MaximumOfThese<string>();
 Console.WriteLine(max.Max("Apple","Peach","Banana"));

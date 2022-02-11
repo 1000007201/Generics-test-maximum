@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GenericsMax
 {
-    public class MaximumOfThese
+    public class MaximumOfThese<T> where T: IComparable
     {
-        public string Max(string first, string second, string third)
+        public T Max(T first, T second, T third)
         {
             if(first.CompareTo(second) > 0 && first.CompareTo(third)>0)
             {
