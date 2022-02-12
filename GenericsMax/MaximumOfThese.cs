@@ -14,11 +14,15 @@ namespace GenericsMax
             {
                 return first;
             }
-            if(second.CompareTo(first) >0 && second.CompareTo(third) > 0)
+            if(second.CompareTo(first) > 0 && second.CompareTo(third) > 0)
             {
                 return second;
             }
             return third;
+        }
+        public void printMax(T first,T second,T third)
+        {
+            Console.WriteLine($"Max of three is :{Max(first,second,third)}");
         }
     }
 }

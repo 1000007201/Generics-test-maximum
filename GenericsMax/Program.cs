@@ -2,5 +2,9 @@
 using GenericsMax;
 
 
-MaximumOfThese<string> max = new MaximumOfThese<string>();
-Console.WriteLine(max.Max("Apple","Peach","Banana"));
+MaximumOfThese<string> maxstring = new MaximumOfThese<string>();
+MaximumOfThese<int> maxint = new MaximumOfThese<int>();
+MaximumOfThese<float> maxfloat = new MaximumOfThese<float>();
+maxstring.Max("Apple","Peach","Banana");
+maxint.Max(1,2,3);  
+maxfloat.Max(5.4f, 1.2f, 2.1f);
